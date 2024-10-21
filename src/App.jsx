@@ -26,7 +26,7 @@ export default function App() {
 						<input
 							className='font-bold m-1 text-white text-2xl bg-[#0EA5E9] rounded-lg box-border h-16 w-16'
 							type='button'
-							value='DE'
+							value='DEL'
 							onClick={(e) => setValue(value.slice(0, -1))}
 						/>
 						<input
