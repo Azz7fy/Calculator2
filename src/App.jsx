@@ -10,10 +10,10 @@ export default function App() {
 
 	return (
 		<body class='min-h-screen bg-[#0F172A]'>
-			<div className='w-96 px-24 py-16'>
-				<form className='' action=''>
-					<div className='content-center'>
-						<input type='text' value={value} />
+			<div className='px-24 py-16'>
+				<form className='content-normal' action=''>
+					<div className=''>
+						<input className="rounded my-8 w-72 h-12 text-2xl" type='text' value={value} />
 					</div>
 
 					<div>
